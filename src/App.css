@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+.container {
+  width: 95%;
+  max-width: 1400px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 18px 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 25px;
+}
+
+.navbar h2 {
+  color: #ff6b35;
+  font-size: 1.8rem;
+}
+
+.cart-icon {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* Hero */
+
+.hero {
+  background: linear-gradient(135deg, #ff6b35, #ff914d);
+  color: white;
+  padding: 80px 30px;
+  border-radius: 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  box-shadow: 0 10px 25px rgba(255, 107, 53, 0.3);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* Offers */
+
+.offers {
+  margin: 30px 0;
+}
+
+.offers h2 {
+  margin-bottom: 20px;
+}
+
+.offer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.offer-card {
+  width: 250px;
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  text-align: center;
+  font-weight: 600;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.offer-card:hover {
+  transform: translateY(-8px);
+}
+
+/* Filter */
+
+.filters {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.filters button {
+  padding: 12px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 30px;
+  background: white;
+  color: #333;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.filters button:hover {
+  background: #ff6b35;
+  color: white;
+}
+
+/* Search */
+
+.search {
+  display: block;
+  width: 400px;
+  max-width: 90%;
+  margin: 0 auto 30px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 50px;
+  background: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  outline: none;
+}
+
+/* Food Cards */
+
+.foods {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.card {
+  width: 280px;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.card p {
+  text-align: center;
+  margin: 10px 0;
+  color: #666;
+}
+
+.card button {
+  width: 90%;
+  margin: 15px auto;
+  display: block;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #ff6b35;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #e85a26;
+}
+
+/* Cart */
+
+.cart {
+  margin-top: 40px;
+  background: white;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.cart h2 {
+  color: #ff6b35;
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.qty {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.qty button {
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 8px;
+  background: #ff6b35;
+  color: white;
+  cursor: pointer;
+}
+
+.qty span {
+  font-weight: bold;
+}
+
+.cart h3 {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.checkout-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #22c55e;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.checkout-btn:hover {
+  background: #16a34a;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 50px;
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .foods {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}

@@ -1,0 +1,88 @@
+const foods = [
+  {
+    id: 1,
+    name: "Burger",
+    price: 120,
+    category: "Burger",
+    image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400",
+  },
+  {
+    id: 2,
+    name: "Pizza",
+    price: 250,
+    category: "Pizza",
+    image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400",
+  },
+  {
+    id: 3,
+    name: "Sandwich",
+    price: 100,
+    category: "Sandwich",
+    image: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=400",
+  },
+  {
+    id: 4,
+    name: "Veg Burger",
+    price: 150,
+    category: "Burger",
+    image: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=400",
+  },
+  {
+    id: 5,
+    name: "French Fries",
+    price: 90,
+    category: "Fries",
+    image: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=400",
+  },
+  {
+    id: 6,
+    name: "Cheese Pizza",
+    price: 280,
+    category: "Pizza",
+    image: "https://images.unsplash.com/photo-1541745537411-b8046dc6d66c?w=400",
+  },
+  {
+    id: 7,
+    name: "Chicken Burger",
+    price: 180,
+    category: "Burger",
+    image: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=400",
+  },
+  {
+    id: 8,
+    name: "Cold Coffee",
+    price: 110,
+    category: "Drinks",
+    image: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400",
+  },
+  {
+    id: 9,
+    name: "Mojito",
+    price: 130,
+    category: "Drinks",
+    image: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=400",
+  },
+  {
+    id: 10,
+    name: "Club Sandwich",
+    price: 140,
+    category: "Sandwich",
+    image: "https://images.unsplash.com/photo-1553909489-cd47e0907980?w=400",
+  },
+  {
+    id: 11,
+    name: "Chicken Nuggets",
+    price: 160,
+    category: "Snacks",
+    image: "https://images.unsplash.com/photo-1562967916-eb82221dfb92?w=400",
+  },
+  {
+    id: 12,
+    name: "Ice Cream",
+    price: 80,
+    category: "Dessert",
+    image: "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400",
+  },
+];
+
+export default foods;
