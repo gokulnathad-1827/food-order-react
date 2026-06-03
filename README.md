@@ -17,5 +17,4 @@ A responsive food ordering frontend built with React.
 - Vite
 
 ## Author
-
 Gokulnath D
